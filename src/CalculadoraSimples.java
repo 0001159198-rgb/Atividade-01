@@ -12,7 +12,7 @@ public class CalculadoraSimples {
         double num2 = sc.nextDouble();
 
         System.out.print("Digite a operação (+, -, *, /): ");
-        char operacao = sc.next().charAt(0); // lê o primeiro caractere digitado
+        char operacao = sc.next().charAt(0); 
 
         double resultado;
 
@@ -37,6 +37,6 @@ public class CalculadoraSimples {
             System.out.println("Operação inválida!");
         }
 
-        sc.close(); // Boa prática: fecha o Scanner
+        sc.close();
     }
 }
