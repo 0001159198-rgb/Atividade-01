@@ -2,7 +2,7 @@ package Vetor01;
 
 import java.util.Scanner;
 
-public class BuscaNome {
+public class Nomelista {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] nomes = new String[10];
